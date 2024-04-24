@@ -1,3 +1,3 @@
 function update
-  paru -Syu
+  paru -Syu $argv
 end

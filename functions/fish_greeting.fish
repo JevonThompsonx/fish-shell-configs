@@ -1,5 +1,5 @@
 function fish_greeting
   clear
   fastfetch
-  echo     Lesgeddit
+  echo Lesgeddit
 end
