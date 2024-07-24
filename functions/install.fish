@@ -1,3 +1,3 @@
 function install
-    paru -S $argv
+    yay -S $argv
 end

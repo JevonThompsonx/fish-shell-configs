@@ -1,4 +1,4 @@
 function project 
-  cd ~/Documents/VSCode/
+  cd ~/Documents/Projects/
   nvim
 end

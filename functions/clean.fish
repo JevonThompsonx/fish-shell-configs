@@ -1,3 +1,3 @@
 function clean
-  paru -Scd
+  yay -Scd
 end

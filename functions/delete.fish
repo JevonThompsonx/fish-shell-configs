@@ -1,3 +1,3 @@
 function delete
-    paru -Rns $argv
+    yay -Rns $argv
 end
