@@ -1,5 +1,5 @@
 function fish_greeting
   clear
-  fastfetch
+  ~/.config/fish/run_fastfetch.sh
   echo Lesgeddit
 end

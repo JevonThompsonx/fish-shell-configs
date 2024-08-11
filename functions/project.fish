@@ -1,4 +1,4 @@
 function project 
-  cd ~/Documents/Projects/
+  cd ~/Documents/Projects
   nvim
 end
