@@ -6,3 +6,8 @@ end
 
 # Created by `pipx` on 2024-08-02 00:44:13
 set PATH $PATH /home/jevonx/.local/bin
+
+# Created by `pipx` on 2024-08-26 02:42:09
+set PATH $PATH /home/jevon/.local/bin
+# cargo path
+set -x PATH $PATH $HOME/.cargo/bin
