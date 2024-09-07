@@ -1,3 +1,3 @@
-function tKill
-  tmux kill-session -t $argv
+function tAttach
+  tmux attach -t $argv
 end
