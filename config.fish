@@ -11,3 +11,7 @@ set PATH $PATH /home/jevonx/.local/bin
 set PATH $PATH /home/jevon/.local/bin
 # cargo path
 set -x PATH $PATH $HOME/.cargo/bin
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
