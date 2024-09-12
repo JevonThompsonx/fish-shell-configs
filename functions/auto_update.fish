@@ -1,4 +1,3 @@
-#!/bin/bash
 function auto_update
 # Notify the user that the update is starting
     notify-send "System Update" "Starting system update with yay..."
