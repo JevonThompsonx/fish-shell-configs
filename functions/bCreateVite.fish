@@ -1,6 +1,10 @@
 function bCreateVite
+  echo "Cloning project template"
   set projectName $argv[1]
-  bun create vite $projectName --template vue-ts
+  git clone https://github.com/JevonThompsonx/vue_ts_template.git
+  mv vue_ts_template $projectName
   cd $projectName
+  echo "Installing dependencies"
   bun install
+  rm -rf .git
 end
