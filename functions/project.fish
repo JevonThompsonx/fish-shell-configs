@@ -1,16 +1,15 @@
-function project 
-
-# Check if an argument is provided
-if test (count $argv) -gt 0
-    # If the argument is a valid directory, change to it
-    if test -d $argv[1]
-        cd ~/Documents/Projects/$argv[1]
+function project
+    if test (count $argv) -gt 0
+        if test -d ~/Documents/Projects/$argv[1]
+            eval z ~/Documents/Projects/$argv[1]
+        else
+            echo "Error: '$argv[1]' is not a valid directory."
+            return 1
+        end
     else
-        echo "Error: '$argv[1]' is not a valid directory."
+        eval z ~/Documents/Projects
     end
-else
-    # Default directory
-    cd ~/Documents/Projects
+
+    nvim
 end
-  nvim
-end
+
