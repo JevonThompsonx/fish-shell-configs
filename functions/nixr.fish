@@ -1,3 +1,3 @@
 function nixr
-nix-env -e $argvs
+  nix-env -e $argvs
 end 

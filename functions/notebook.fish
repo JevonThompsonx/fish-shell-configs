@@ -1,4 +1,4 @@
 function notebook 
   z ~/Documents/Projects/
-  jupyter lab
+  python3 -m jupyter lab
 end

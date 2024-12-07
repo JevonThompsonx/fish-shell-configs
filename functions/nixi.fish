@@ -1,3 +1,3 @@
 function nixi 
-nix-env -iA nixpkgs.$argvs
+  nix-env -iA nixpkgs.$argvs
 end
