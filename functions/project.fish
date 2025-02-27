@@ -1,4 +1,10 @@
 function project
+
+# Explanaition: 
+  # 1. Uses fzf to select from the project folder all the folders currently downloaded and select one of those options or go to the project root folder
+  # 2. Opens neovim in selected folder
+  
+  # Command: 
     set -l project_home ~/Documents/Projects
     set -l install_supported 1
 
